@@ -1,0 +1,6 @@
+5
+hi
+my name is lynn
+this sentence has five words
+and this sentence will have seven words
+hello world
