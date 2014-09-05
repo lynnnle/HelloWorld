@@ -14,13 +14,10 @@ int main (int argc, char *argv[]) {
     cout << "Something went wrong with opening the file! Terminating program." << endl;
     return 1;
   }
-
-    //cout << "File successfully opened." << endl;
   
   //n = number of lines in file, indicated on first line of file
   int n;
   infile >> n;
-    //cout << "n = " << n << endl;
 
   //clear the stream
   infile.clear();
@@ -30,7 +27,6 @@ int main (int argc, char *argv[]) {
   string* lineArray = new string[n];
   for(int i = 0; i < n; i++) {
     getline(infile,lineArray[i]);
-      //cout << lineArray[i] << endl;
   }
 
   //output number of words in each line
@@ -41,7 +37,6 @@ int main (int argc, char *argv[]) {
     ss << lineArray[line];
     while (ss >> temp) {
       count++;
-        //cout << "temp = " << temp << ", count++ = " << count << endl;
     }
     cout << count << endl;
     ss.clear();

@@ -1,5 +1,8 @@
 //README.md
 
+LYNN LE
+CSCI104 - T/TH 12:30
+
 HW1 answers
 
 Problem 1
@@ -18,7 +21,10 @@ c) git will commit the files and make it part of the repository history. It only
 Problem 3
 
 Problem 4
-see "hw1q4.cpp" for code.
-run with "./hw1q4 hw1q4.txt"
+see "hw1q4.cpp" for code. compile with "g++ -g hw1q4.cpp -o hw1q4".
+run with "./hw1q4 hw1q4.txt" or other txt files (I used "hw1q4_test.txt" as an alternative to test).
 
 Problem 5
+see "hw1q5.cpp" for code. compile with "g++ -g hw1q5.cpp -o hw1q5".
+run with "./hw1q5 hw1q5.txt" or other text files (I used "hw1q5_test.txt").
+check for memory leaks with "valgrind --leak-check=yes ./hw1q5 hw1q5.txt"
