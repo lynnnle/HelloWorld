@@ -1,0 +1,14 @@
+ADD [Aaron Cote] [aaroncot@usc.edu]
+ADD [David Kempe] [dkempe@usc.edu]
+ADD [Pat Haden] [sidelinewarrior2014@aol.com]
+ADD [Lynn N Le] [le.lynn.n@gmail.com]
+QUERY [Aaron Cote]
+REMOVE [David Kempe]
+LOAD [etest2.txt]
+QUERY [David Kempe]
+QUERY [Aaron Cote]
+QUERY [Pat Haden]
+QUERY [Lynn Le]
+QUERY [Lynn N Le]
+print
+QUIT
